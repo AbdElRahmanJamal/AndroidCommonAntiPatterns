@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">AndroidCommonAntiPatterns</string>
+  <string name="title_activity_first_activity">first_activity</string>
+  <string name="title_activity_second_activity">second_activity</string>
+  <string name="title_activity_one">activity_one</string>
+  <string name="title_activity_two">activity_two</string>
+</resources>

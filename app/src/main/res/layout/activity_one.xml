@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".callback.ActivityOne">
+
+  <TextView
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:text="Hello first activity"
+      android:layout_width="match_parent"
+      android:layout_margin="10dp"
+      android:layout_height="wrap_content" android:id="@+id/first_text"/>
+  <Button
+      android:text="next"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" android:id="@+id/btn-first"/>
+</LinearLayout>
