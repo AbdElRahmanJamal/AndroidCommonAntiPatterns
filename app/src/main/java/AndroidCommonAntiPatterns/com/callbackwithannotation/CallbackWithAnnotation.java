@@ -13,7 +13,8 @@ public class CallbackWithAnnotation implements Application.ActivityLifecycleCall
 
   @Override public void onActivityCreated(Activity activity, Bundle bundle) {
     if (activity.getClass()
-        .getAnnotation(AndroidCommonAntiPatterns.com.callbackwithannotation.ActivityLayout.class) instanceof AndroidCommonAntiPatterns.com.callbackwithannotation.ActivityLayout) {
+        .getAnnotation(AndroidCommonAntiPatterns.com.callbackwithannotation.ActivityLayout.class)
+        instanceof AndroidCommonAntiPatterns.com.callbackwithannotation.ActivityLayout) {
       activity.setContentView(layoutID(activity));
     }
     unbinders.put(activity, ButterKnife.bind(activity));
